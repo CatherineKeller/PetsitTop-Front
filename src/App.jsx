@@ -61,7 +61,7 @@ function App() {
 
         {isLogged && (
         <>
-          <Route path="/mon_profil" element={<MyProfile />} />
+          <Route path="/mon-profil" element={<MyProfile />} />
           <Route path="/profil/:id" element={<PublicProfile />} />
           <Route path="/annonces" element={<Ads />} />
           <Route path="/mes-annonces" element={<MyAds />} />
