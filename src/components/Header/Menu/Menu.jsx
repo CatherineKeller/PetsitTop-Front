@@ -26,7 +26,7 @@ function Menu({ handleClick }) {
 
   return (
     <nav className="nav" onClick={handleClick}>
-      <NavLink to="/mon_profil" className={classNameLink}>Mon profil</NavLink>
+      <NavLink to="/mon-profil" className={classNameLink}>Mon profil</NavLink>
       <NavLink to="/creer-une-annonce" className={classNameLink}>Créer une annonce</NavLink>
       <NavLink to="/mes-annonces" className={classNameLink}>Mes annonces</NavLink>
       <NavLink to="/annonces" className={classNameLink}>Voir toutes les annonces</NavLink>
