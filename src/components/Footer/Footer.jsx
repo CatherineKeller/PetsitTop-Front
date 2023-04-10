@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <nav className="footer__nav">
         <ul className="footer__nav__list">
-          <Link to="/" className="footer__nav__item">PetsitterFriendly</Link>
+          <Link to="/" className="footer__nav__item">PetsitTop</Link>
           {!isLogged && <Link to="/identification" className="footer__nav__item">Se connecter</Link>}
           {!isLogged && <Link to="/identification" className="footer__nav__item">Devenir Petsitter</Link>}
         </ul>
