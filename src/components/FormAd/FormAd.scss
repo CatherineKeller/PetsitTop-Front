@@ -14,11 +14,11 @@
 			flex-wrap: wrap;
 			gap: 1rem 3rem;
 		}
-		& .field {
+		& .line {
 			width: 30%;
 		}
 
-		& .fieldArea {
+		& .lineArea {
 			width: 40%;
 			order: 5;
 		}
@@ -32,5 +32,12 @@
 			width: 20rem;
 			align-self: center;
 		}
+	}
+
+	&__error {
+		color: red;
+		font-size: 0.9rem;
+		margin-top: 0.1rem;
+		font-style: italic;
 	}
 }
