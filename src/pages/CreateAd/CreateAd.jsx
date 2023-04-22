@@ -40,6 +40,7 @@ function CreateAd() {
     } else {
       dispatch(createAd());
       navigate('/mes-annonces');
+      setErrors({});
     }
   }
 

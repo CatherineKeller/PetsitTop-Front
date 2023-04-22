@@ -88,6 +88,7 @@ function FormCreateAccount() {
       // Si il n'y a pas d'erreurs, on envoie les données pour la création du compte
       dispatch(createAccount());
       dispatch(resetFieldsCreatAccount());
+      setErrors({});
     }
   }
 
