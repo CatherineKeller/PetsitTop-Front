@@ -80,6 +80,7 @@ function MyAdCard({
       dispatch(updateAd(adCardId));
       dispatch(getMyAds());
       setCardUpdateInProgress(false);
+      setErrors({});
     }
   }
 
